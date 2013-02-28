@@ -2,7 +2,7 @@
 
 At [internezzo](http://www.internezzo.ch/) we're having a [radiator screen for Jenkins](https://github.com/laeuft/jenkins-monitor) to be immediately notified if one of our build jobs is failing.
 
-But we thought about the possibility to show several different things like e.g. statstics or the like, without the need to nail a second, third or fourth screen to the wall. That's why *radiate* was built: as *a wrapper* around other existing sources that can be shown on one single screen in a loop.
+But we thought about the possibility to show several different things like e.g. statstics or the like, without the need to nail a second, third or fourth screen to the wall. That's why **radiate** was built: as **a wrapper** around other existing sources that can be shown on one single screen in a loop.
 
 ## How to start?
 Just clone this repository and open index.html in your browser. It will show you some (ugly, I know) demo panels to showcase the whole functionality.

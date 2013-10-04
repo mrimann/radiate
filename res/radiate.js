@@ -43,11 +43,11 @@ $( document ).ready( function() {
 		// then the panels
 		$('#stage .active').addClass('current');
 		if ($('#stage .active').next().hasClass('meIsAPanel')) {
-			$('#stage .active').next().addClass('active').show();
+			$('#stage .active').next().addClass('active').fadeIn();
 		} else {
-			$('#stage iframe:first').addClass('active').show();
+			$('#stage iframe:first').addClass('active').fadeIn();
 		}
-		$('#stage .current').removeClass('active current').hide();
+		$('#stage .current').removeClass('active current').fadeOut();
 
 
 		// set timeout, before switching to the next one

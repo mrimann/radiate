@@ -1,37 +1,31 @@
 body {
-	margin: 0;
-	overflow-x: hidden;
-	overflow-y: hidden;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
-
-#stage {
-	background-color: #aaa;
+body h1 {
+  font-family: Verdana, Arial, sans-serif;
+  margin: 0;
 }
-
-h1 {
-	font-family: Verdana, Arial, sans-serif;
-	margin: 0;
+body #stage {
+  background-color: #aaa;
 }
-
-#stage iframe {
-	border: none;
-	width: 100%;
-	height: 100%;
-	float: left;
+body #stage iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+  float: left;
 }
-
-
-#index {
-	text-align: center;
-	height: 7px;
+body #index {
+  text-align: center;
+  height: 7px;
 }
-#index div {
-	background-color: #999;
-	height: 7px;
-	float: left;
-	margin: 0 1px;
+body #index div {
+  background-color: #999;
+  height: 7px;
+  float: left;
+  margin: 0 1px;
 }
-
-#index .active {
-	background-color: #8b0000;
+body #index .active {
+  background-color: #8b0000;
 }
